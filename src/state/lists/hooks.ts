@@ -1,5 +1,5 @@
-import { ChainId, Token } from '@uniswap/sdk'
-import { Tags, TokenInfo, TokenList } from '@uniswap/token-lists'
+import { ChainId, Token } from '../../forks/@uniswap/sdk'
+import { Tags, TokenInfo, TokenList } from '../../forks/@uniswap/token-lists'
 import { useMemo } from 'react'
 import { useSelector } from 'react-redux'
 import { AppState } from '../index'
